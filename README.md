@@ -21,3 +21,9 @@ responsive features:
 - The size and aspect ratio of images changes based on the browser size and device pixel density
 - The nav bar menu collapses into a burger menu on smaller devices
 - The layout changes based on the size/orientation of the browser/device
+
+### Image sources
+- [Illuminated keyboard by NegativeSpace](https://negativespace.co/illuminated-keyboard/)
+- [Spider Web Background](https://wallpaperset.com/spider-web-background#about)
+- [Stacking stones by ChromeThemer](https://www.chromethemer.com/wallpapers/chromebook-wallpapers/stacking-stones-chromebook-wallpaper.html)
+- [Elements of windter with snow background by freedesignfile](https://all-free-download.com/free-vector/download/elements-of-winter-with-snow-backgrounds-vector_522944.html) 
