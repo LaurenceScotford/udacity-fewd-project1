@@ -26,4 +26,4 @@ responsive features:
 - [Illuminated keyboard by NegativeSpace](https://negativespace.co/illuminated-keyboard/)
 - [Spider Web Background](https://wallpaperset.com/spider-web-background#about)
 - [Stacking stones by ChromeThemer](https://www.chromethemer.com/wallpapers/chromebook-wallpapers/stacking-stones-chromebook-wallpaper.html)
-- [Elements of windter with snow background by freedesignfile](https://all-free-download.com/free-vector/download/elements-of-winter-with-snow-backgrounds-vector_522944.html) 
+- [Elements of winter with snow background by freedesignfile](https://all-free-download.com/free-vector/download/elements-of-winter-with-snow-backgrounds-vector_522944.html) 
