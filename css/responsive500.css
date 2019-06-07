@@ -1,0 +1,22 @@
+/* Laurence Scotford portfolio site
+   500px responsive stylesheet */
+
+#main-nav {
+  width: 25%;
+}
+
+#main-nav:target {
+  transition: left 0.5s ease;
+  left: 75%;
+}
+
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  margin-bottom: 1em;
+  width: 48%;
+}

@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1em;
+  padding: 0 0.5em;
+  color: #2d3c49;
+}
+
+body * {
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #7d97ad;
+  background-color: #fff;
+  display: flex;
+  padding-top: 0.5em;
+  z-index: 1;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  font-size: 0.75em;
+  color: #7d97ad;
+  padding-top: 0.25em;
+}
+
+#main-nav {
+  transition: left 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 101%;
+  width: 35%;
+  background-color: #2d3c49;
+  padding: 1em;
+  z-index: 2;
+}
+
+#menu {
+  display:block;
+  width: 10%;
+  vertical-align: top;
+}
+
+#menu img {
+  width: 100%;
+  max-height: 30px;
+}
+
+#main-nav:target {
+  transition: left 0.5s ease;
+  left: 65%;
+}
+
+#close-nav {
+  color: #7d97ad;
+  text-decoration: none;
+}
+
+#close-nav:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  width: 75px;
+}
+
+#logo img {
+  width: 100%;
+  max-height: 75px;
+}
+
+#title {
+  vertical-align: top;
+  height: 100%;
+  width: calc(90% - 75px);
+  padding-left: 0.5em;
+}
+
+#title h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.65em;
+  width: 100%;
+  line-height: 100%;
+}
+
+#title h2 {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-top: 0.2em;
+}
+
+#hero {
+  margin-top: 0.5em;
+  width: 100%;
+  height: auto;
+}
+
+#features h3 {
+  width: 100%;
+  font-size: 1.25em;
+}
+
+.nav-item {
+  display: block;
+  color: #fff;
+  padding-top: 2em;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #02b3e4;
+}
+
+.feature {
+  position: relative;
+}
+
+.feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.2em 0 0 0;
+}
+
+.feat-title {
+  position: absolute;
+  top: 0;
+  padding: 0.2em;
+  color: #fff;
+  width: 100%;
+}
+
+.feat-title h4 {
+  font-size: 1em;
+  font-weight: bold;
+/*  background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.feat-title h5 {
+  font-size: 0.8em;
+  font-weight: bold;
+/*  background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.feat-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feat-btns a {
+  background-color: #2d3c49;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 49%;
+  text-transform: uppercase;
+}
+
+.feat-btns a:hover {
+  text-decoration: underline;
+}

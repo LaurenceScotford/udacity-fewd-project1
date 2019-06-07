@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laurence Scotford's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive500.css" media="screen and (min-width: 500px)">
+  <link rel="stylesheet" href="css/responsive750.css" media="screen and (min-width: 750px)">
+  <link rel="stylesheet" href="css/responsive1000.css" media="screen and (min-width: 1000px)">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="img/logo.svg" alt="Personal logo for Laurence Scotford">
+    </div>
+    <div id="title">
+      <h1>Laurence Scotford</h1>
+      <h2>Front End Web Developer</h2>
+    </div>
+    <a id="menu" href="#main-nav"><img src="img/burger.svg" alt="Hamburger menu"></a>
+  </header>
+  <nav id="main-nav">
+    <a href="#" id="close-nav">CLOSE</a>
+    <a href="#" class="nav-item active">HOME</a>
+    <a href="#" class="nav-item">PORTFOLIO</a>
+    <a href="#" class="nav-item">BLOG</a>
+    <a href="#" class="nav-item">ABOUT</a>
+  </nav>
+  <main id="content">
+    <picture>
+      <source media="(max-width: 499px)" srcset="img/hero_sml_x1.png 1x, img/hero_sml_x2.png 2x">
+      <source media="(min-width: 500px) and (max-width: 749px)" srcset="img/hero_med_x1.png 1x, img/hero_med_x2.png 2x">
+      <source media="(min-width: 750px) and (max-height: 1023px)" srcset="img/hero_wide_x1.png 1x, img/hero_wide_x2.png 2x">
+      <source media="(min-width: 750px) and (min-height: 1024px)" srcset="img/hero_lrg_x1.png 1x, img/hero_lrg_x2.png 2x">
+      <img id="hero" src="img/hero_sml_x1.png" alt="Illuminated keyboard">
+    </picture>
+    <section id="features">
+      <h3>Featured Work</h3>
+      <article class="feature">
+        <picture>
+          <source media="(max-width: 499px)" srcset="img/feature1_sml_x1.png 1x, img/feature1_sml_x2.png 2x">
+          <source media="(min-width: 500px) and (max-width: 749px)" srcset="img/feature1_med_x1.png 1x, img/feature1_med_x2.png 2x">
+          <source media="(min-width: 750px)" srcset="img/feature1_lrg_x1.png 1x, img/feature1_lrg_x2.png 2x">
+          <img src="img/feature1_sml_x1.jpg" alt="Spider web">
+        </picture>
+        <div class="feat-title">
+          <h4>QuickQuiz</h4>
+          <h5>Web application</h5>
+        </div>
+        <div class="feat-btns">
+          <a href="#">View</a> <a href="#">Open in Github</a>
+        </div>
+      </article>
+      <article class="feature">
+        <picture>
+          <source media="(max-width: 499px)" srcset="img/feature2_sml_x1.png 1x, img/feature2_sml_x2.png 2x">
+          <source media="(min-width: 500px) and (max-width: 749px)" srcset="img/feature2_med_x1.png 1x, img/feature2_med_x2.png 2x">
+          <source media="(min-width: 750px)" srcset="img/feature2_lrg_x1.png 1x, img/feature2_lrg_x2.png 2x">
+          <img src="img/feature2_sml_x1.jpg" alt="Stacked pebbles">
+        </picture>
+        <div class="feat-title">
+          <h4>Stackhack</h4>
+          <h5>Physics-based game</h5>
+        </div>
+        <div class="feat-btns">
+          <a href="#">View</a> <a href="#">Open in Github</a>
+        </div>
+      </article>
+      <article class="feature">
+        <picture>
+          <source media="(max-width: 499px)" srcset="img/feature3_sml_x1.png 1x, img/feature3_sml_x2.png 2x">
+          <source media="(min-width: 500px) and (max-width: 749px)" srcset="img/feature3_med_x1.png 1x, img/feature3_med_x2.png 2x">
+          <source media="(min-width: 750px)" srcset="img/feature3_lrg_x1.png 1x, img/feature3_lrg_x2.png 2x">
+          <img src="img/feature3_sml_x1.jpg" alt="Snowflakes">
+        </picture>
+        <div class="feat-title">
+          <h4>Snowthrow</h4>
+          <h5>HTML5 game</h5>
+        </div>
+        <div class="feat-btns">
+          <a href="#">View</a> <a href="#">Open in Github</a>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>This site created by Laurence Scotford, June 2019.</p>
+  </footer>
+</body>
+</html>
