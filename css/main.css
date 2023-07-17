@@ -52,7 +52,6 @@ footer {
 #menu {
   display:block;
   width: 10%;
-  vertical-align: top;
 }
 
 #menu img {
@@ -61,7 +60,6 @@ footer {
 }
 
 #main-nav:target {
-  transition: left 0.5s ease;
   left: 65%;
 }
 
